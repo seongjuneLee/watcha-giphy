@@ -1,0 +1,6 @@
+framework module Pods_watcha_giphy_watcha_giphyUITests {
+  umbrella header "Pods-watcha-giphy-watcha-giphyUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

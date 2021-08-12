@@ -1,0 +1,6 @@
+framework module Pods_watcha_giphyTests {
+  umbrella header "Pods-watcha-giphyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

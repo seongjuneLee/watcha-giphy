@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-watcha-giphy-watcha-giphyUITests/Pods-watcha-giphy-watcha-giphyUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/GiphyUISDK/GiphyUISDK.framework/GiphyUISDK

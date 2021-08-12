@@ -24,19 +24,16 @@ class GiphyCollectionViewCell: UICollectionViewCell {
         let destinationUrl = documentsUrl.appendingPathComponent("abcd\(indexPathItem)")
         if FileManager().fileExists(atPath: destinationUrl.path)
         {
-            print("File already exists [\(destinationUrl.path)]")
             completion(destinationUrl.path, nil)
         }
         else if let dataFromURL = NSData(contentsOf: url)
         {
             if dataFromURL.write(to: destinationUrl, atomically: true)
             {
-                print("file saved [\(destinationUrl.path)]")
                 completion(destinationUrl.path, nil)
             }
             else
             {
-                print("error saving file")
                 let error = NSError(domain:"Error saving file", code:1001, userInfo:nil)
                 completion(destinationUrl.path, error)
             }
